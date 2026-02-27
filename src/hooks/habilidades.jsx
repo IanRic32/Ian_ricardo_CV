@@ -3,7 +3,7 @@ import { DiTrello, DiSqllite } from "react-icons/di"; // Agrupados
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript,SiGooglecloud } from "react-icons/si";
 
 import { 
     FaPython, 
@@ -20,7 +20,7 @@ function Habilidades() {
     return (
         <div className="container_habilidades">
             <ul className="grid-habilidades">
-                <li><FaPython className="icon" /> Python (FastApi, Polars, Pandas)</li>
+                <li><FaPython className="icon" /> Python (FastApi, Polars, Pandas, Tkinter, OS, Shutil)</li>
                 <li><AiOutlineConsoleSql className="icon" /> SQL</li>
                 <li><FaGithub className="icon" /> GitHub</li>
                 <li><FaGitAlt className="icon" /> Git</li>
@@ -34,6 +34,7 @@ function Habilidades() {
                 <li><FaReact className="icon" /> React</li>
                 <li><IoLogoJavascript className="icon" /> Javascript</li>
                 <li><SiTypescript className="icon" /> TypeScript</li>
+                <li><SiGooglecloud className="icon" /> Google Cloud Platform</li>
                 <li><span className="icon">📊</span> Power Query</li>
                 <li><span className="icon">📈</span> Power BI</li>
             </ul>

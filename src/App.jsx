@@ -1,4 +1,4 @@
-import {navegacion} from './hooks/navbar.jsx'
+import {Navegacion} from './hooks/navbar.jsx'
 import './App.css'
 import Image from './assets/ian_cat.jpeg'
 import IPN from './assets/ipn.jpg'
@@ -10,7 +10,7 @@ export default function App() {
     <title></title>
       <header className='header_nav'>
         <h1>Ian Ricardo Rios Velazquez</h1>
-        {navegacion()}
+        {Navegacion()}
       </header>
       <main>
           <section className="sobremi">
@@ -91,7 +91,7 @@ export default function App() {
               <p> Te invito a revisar mis redes sociales y proyectos</p>
               <p>Copyright © 2024 Ian Ricardo Rios Velazquez. All rights reserved.</p>
           </div>
-          {navegacion()}
+          {Navegacion()}
         </div>
       </footer>
     </>

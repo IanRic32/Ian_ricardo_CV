@@ -1,5 +1,5 @@
 import { IoLogoJavascript } from "react-icons/io";
-import { DiTrello, DiSqllite } from "react-icons/di"; // Agrupados
+import { DiTrello, DiSqllite } from "react-icons/di";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";

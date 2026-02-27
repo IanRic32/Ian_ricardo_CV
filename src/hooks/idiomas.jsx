@@ -1,6 +1,6 @@
 import React from 'react';
 import { GiWorld } from "react-icons/gi"; // Un icono global para idiomas
-import '../idiomas.css';
+import '../styles/idiomas.css';
 
 function Idiomas() {
     const listaIdiomas = [

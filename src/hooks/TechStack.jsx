@@ -5,7 +5,7 @@ import {
     SiJavascript, SiTypescript, SiPowerbi, SiGithub 
 } from "react-icons/si";
 import { FaDatabase, FaCode, FaCloud } from "react-icons/fa";
-import '../techstack.css';
+import '../styles/techstack.css';
 
 function TechStack() {
     const techCategories = [

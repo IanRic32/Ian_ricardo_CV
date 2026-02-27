@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { SiKaggle } from "react-icons/si";
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
-import '../nav.css';
+import '../styles/nav.css';
 
 function Navegacion() { 
     const [isOpen, setIsOpen] = useState(false);

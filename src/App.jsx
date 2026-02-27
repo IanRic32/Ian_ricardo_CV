@@ -1,5 +1,5 @@
 import {Navegacion} from './hooks/navbar.jsx'
-import './App.css'
+import './styles/App.css'
 import Image from './assets/ian_cat.jpeg'
 import IPN from './assets/ipn.jpg'
 import UAM from './assets/uam.jpg'

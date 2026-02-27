@@ -1,5 +1,5 @@
 import { IoLogoJavascript } from "react-icons/io";
-import { DiTrello, DiSqllite } from "react-icons/di";
+import { DiTrello, DiSqllite } from "react-icons/di"; // Agrupados
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
@@ -15,7 +15,7 @@ import {
     FaJira 
 } from "react-icons/fa";
 
-import '../hab.css'
+import '../styles/hab.css';
 function Habilidades() {
     return (
         <div className="container_habilidades">

@@ -2,7 +2,7 @@ import React from 'react';
 import { VscAzureDevops } from "react-icons/vsc";
 import { SiGooglecloud, SiPython } from "react-icons/si";
 import { FaDatabase, FaChartLine, FaLaptopCode } from "react-icons/fa";
-import '../exp.css';
+import '../styles/exp.css';
 
 function Experiencia() {
     const empleos = [

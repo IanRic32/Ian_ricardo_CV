@@ -1,5 +1,5 @@
 import React from 'react';
-import '../cert.css';
+import '../styles/cert.css';
 import { 
     SiGooglecloud, 
     SiAmazon, 

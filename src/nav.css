@@ -23,12 +23,12 @@
 }
 
 .nav_icon {
-    display: none; /* Escondido en escritorio */
+    display: none; 
     font-size: 1.8rem;
     cursor: pointer;
 }
 
-/* --- RESPONSIVE --- */
+
 
 @media (max-width: 768px) {
     .nav_icon {
@@ -49,7 +49,7 @@
 
     /* Cuando el menú está abierto */
     .nav_links.open {
-        height: 300px; /* Ajusta según cuántos links tengas */
+        height: 300px; 
         padding: 2rem 0;
     }
 

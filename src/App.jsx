@@ -3,6 +3,7 @@ import './App.css'
 import Image from './assets/ian_cat.jpeg'
 import IPN from './assets/ipn.jpg'
 import UAM from './assets/uam.jpg'
+import { Habilidades } from './hooks/habilidades.jsx'
 export default function App() {
   return (
     <>
@@ -76,6 +77,12 @@ export default function App() {
         <section className="proyectos">
               <h2>Proyectos -- Freelance</h2> 
           </section>
+        
+        <section className='habilidades'>
+          <h2>Habilidades Tecnicas</h2>
+          {Habilidades()}
+        </section>
+
       </main>
 
       <footer>

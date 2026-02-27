@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { SiKaggle} from "react-icons/si";
 import {FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
 import '../nav.css'
+
 function navegacion() {
     
     const [isOpen, setIsOpen] = useState(false);

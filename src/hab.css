@@ -1,0 +1,45 @@
+.grid-habilidades {
+    display: grid;
+    /* Crea 3 columnas de igual tamaño */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    text-align: left; /* Alinea el texto a la izquierda para mejor lectura */
+}
+
+.grid-habilidades li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    background: #f4f4f4; /* Un fondo sutil para cada habilidad */
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #333;
+    transition: transform 0.2s;
+}
+
+.grid-habilidades li:hover {
+    transform: translateY(-5px); /* Efecto visual al pasar el mouse */
+    background: #e0e0e0;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #282c34; /* Color consistente con tu nav */
+}
+
+/* --- MEDIA QUERY PARA MÓVIL --- */
+@media (max-width: 900px) {
+    .grid-habilidades {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-habilidades {
+        grid-template-columns: 1fr; /* 1 columna en celulares */
+    }
+}

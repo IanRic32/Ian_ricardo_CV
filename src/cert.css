@@ -1,0 +1,62 @@
+.container_certificaciones {
+    padding: 2rem 0;
+}
+
+.cert_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.cert_card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    border: 1px solid #eaeaea;
+}
+
+.cert_card:hover {
+    transform: translateY(-5px);
+    border-color: #282c34;
+}
+
+.cert_icon_container {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.cert_info {
+    text-align: left;
+}
+
+.cert_info h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+    color: #282c34;
+    line-height: 1.3;
+}
+
+.cert_info p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.cert_info span {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Colores de marca para los iconos */
+.google { color: #4285F4; }
+.amazon { color: #FF9900; }
+.oracle { color: #F80000; }
+.udemy { color: #A435F0; }
+.ibm { color: #052FAD; }
+.chile { color: #003770; }

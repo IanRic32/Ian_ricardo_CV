@@ -1,5 +1,7 @@
 .container_idiomas {
     padding: 1rem 0;
+    background: linear-gradient(145deg, #ffffff, var(--bg-light));
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
 
 .idiomas_grid {

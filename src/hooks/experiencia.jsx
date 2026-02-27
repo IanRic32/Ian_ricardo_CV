@@ -36,6 +36,15 @@ function Experiencia() {
                 "Diseñé automatizaciones robustas en Python (.exe) integrando soluciones en entornos SharePoint.",
                 "Gestioné el Data Warehouse en Google Cloud Platform (GCP) realizando consultas avanzadas en SQL."
             ]
+        },
+        {
+            empresa: "Instituto Tecnológico de Monterrey",
+            puesto: "Estancia de Investigación",
+            periodo: "2023",
+            logros: [
+                "Implementé algoritmos de optimización escritos en C++ y exporte a Python para aplicar funciones many-body.",
+                "Apoyé con la creación del borrador del artículo científico a publicar."
+            ]
         }
     ];
 

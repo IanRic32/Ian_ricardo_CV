@@ -1,0 +1,61 @@
+.container_experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    text-align: left;
+}
+
+.card_experiencia {
+    background: #ffffff;
+    border-left: 5px solid #282c34; 
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card_experiencia:hover {
+    transform: translateX(10px);
+    background: #f8f9fa;
+}
+
+.header_exp h3 {
+    margin: 0;
+    color: #282c34;
+    font-size: 1.3rem;
+}
+
+.header_exp span {
+    color: #61dafb; /* Un color de acento */
+    font-weight: 500;
+}
+
+.periodo {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.lista_logros {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lista_logros li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+
+.lista_logros li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #282c34;
+    font-weight: bold;
+}

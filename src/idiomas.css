@@ -1,0 +1,43 @@
+.container_idiomas {
+    padding: 1rem 0;
+}
+
+.idiomas_grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    justify-content: center;
+}
+
+.idioma_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    min-width: 120px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.idioma_card:hover {
+    transform: scale(1.05);
+}
+
+.idioma_nombre {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #282c34;
+}
+
+.idioma_nivel {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+
+.nativo { border-left: 4px solid #4caf50; }
+.intermedio { border-left: 4px solid #2196f3; }
+.basico { border-left: 4px solid #ff9800; }

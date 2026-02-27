@@ -4,6 +4,8 @@ import Image from './assets/ian_cat.jpeg'
 import IPN from './assets/ipn.jpg'
 import UAM from './assets/uam.jpg'
 import { Habilidades } from './hooks/habilidades.jsx'
+import { Experiencia } from './hooks/experiencia.jsx'
+import { Idiomas } from './hooks/idiomas.jsx'
 export default function App() {
   return (
     <>
@@ -60,29 +62,23 @@ export default function App() {
 
           <section className="idiomas">
               <h2>Idiomas</h2>
-              <p>Español (Nativo)</p>
-              <p>Inglés (Intermedio)</p>
-              <p>Portugues (Intermedio)</p>
-              <p>Frances (Básico)</p>
+              {Idiomas()}
           </section>
         </div>
 
         <section className="expe">
               <h2>Experiencia Profesional</h2>
-          </section>
-        
-        <section className='certif'>
-          <h2>Certificaciones</h2>
-        </section>
-        <section className="proyectos">
-              <h2>Proyectos -- Freelance</h2> 
+              {Experiencia()}
           </section>
         
         <section className='habilidades'>
           <h2>Habilidades Tecnicas</h2>
           {Habilidades()}
         </section>
-
+        
+        <section className='certif'>
+          <h2>Certificaciones</h2>
+        </section>
       </main>
 
       <footer>
